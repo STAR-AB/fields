@@ -6,30 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Purple Admin</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="/assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="/assets/vendors/ti-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="/assets/vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="/assets/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="/assets/vendors/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="/assets/images/favicon.png" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
   </head>
   <body>
     <div class="container-scroller">
-     
+      <div class="row p-0 m-0 proBanner" id="proBanner">
+        <div class="col-md-12 p-0 m-0">
+          <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
+            <div class="ps-lg-3">
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="mb-0 font-weight-medium me-3 buy-now-text">Free 24/7 customer support, updates, and more with this template!</p>
+                <a href="https://www.bootstrapdash.com/product/purple-bootstrap-admin-template/" target="_blank" class="btn me-2 buy-now-btn border-0">Buy Now</a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="https://www.bootstrapdash.com/product/purple-bootstrap-admin-template/"><i class="mdi mdi-home me-3 text-white"></i></a>
+              <button id="bannerClose" class="btn border-0 p-0">
+                <i class="mdi mdi-close text-white mr-0"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
-          <a class="navbar-brand brand-logo" href="index.html"><img src="/assets/images/logo.svg" alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="/assets/images/logo-mini.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo" href="index.html"><img src="assets/images/logo.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-stretch">
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -49,7 +66,7 @@
             <li class="nav-item nav-profile dropdown">
               <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-profile-img">
-                  <img src="/assets/images/faces/face1.jpg" alt="image">
+                  <img src="assets/images/faces/face1.jpg" alt="image">
                   <span class="availability-status online"></span>
                 </div>
                 <div class="nav-profile-text">
@@ -79,7 +96,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="/assets/images/faces/face4.jpg" alt="image" class="profile-pic">
+                    <img src="assets/images/faces/face4.jpg" alt="image" class="profile-pic">
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
@@ -89,7 +106,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="/assets/images/faces/face2.jpg" alt="image" class="profile-pic">
+                    <img src="assets/images/faces/face2.jpg" alt="image" class="profile-pic">
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
@@ -99,7 +116,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="/assets/images/faces/face3.jpg" alt="image" class="profile-pic">
+                    <img src="assets/images/faces/face3.jpg" alt="image" class="profile-pic">
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated</h6>
@@ -181,7 +198,7 @@
             <li class="nav-item nav-profile">
               <a href="#" class="nav-link">
                 <div class="nav-profile-image">
-                  <img src="/assets/images/faces/face1.jpg" alt="profile" />
+                  <img src="assets/images/faces/face1.jpg" alt="profile" />
                   <span class="login-status online"></span>
                   <!--change to offline or busy as needed-->
                 </div>
@@ -321,8 +338,7 @@
                 </ul>
               </nav>
             </div>
-          
-             
+    @yield('content')
           </div>
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->
@@ -340,21 +356,21 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="/assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
-    <script src="/assets/vendors/chart.js/chart.umd.js"></script>
-    <script src="/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="assets/vendors/chart.js/chart.umd.js"></script>
+    <script src="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="/assets/js/off-canvas.js"></script>
-    <script src="/assets/js/misc.js"></script>
-    <script src="/assets/js/settings.js"></script>
-    <script src="/assets/js/todolist.js"></script>
-    <script src="/assets/js/jquery.cookie.js"></script>
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/todolist.js"></script>
+    <script src="assets/js/jquery.cookie.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
-    <script src="/assets/js/dashboard.js"></script>
+    <script src="assets/js/dashboard.js"></script>
     <!-- End custom js for this page -->
   </body>
 </html>

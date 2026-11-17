@@ -15,9 +15,7 @@ class AuthController extends Controller
     public function registerForm(){
         return view('auth.register');
     }
-    public function dashboard(){
-        return view('auth.dashboard');
-    }
+  
 
     public function login(Request $request){
         $credentials = $request->validate([
